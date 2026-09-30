@@ -1,0 +1,28 @@
+{
+  "name": "sii-course-bot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "上海创智学院个人课表查询与飞书课前提醒助手",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxrys/sii-course-bot.git"
+  },
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "login": "node src/cli.js login",
+    "sync": "node src/cli.js sync",
+    "query": "node src/cli.js query",
+    "render": "node src/cli.js render",
+    "reminders": "node src/cli.js reminders",
+    "start": "node src/cli.js start",
+    "test": "node --test",
+    "check": "node --check src/cli.js"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.73.3",
+    "dotenv": "^17.4.2",
+    "playwright": "^1.63.0"
+  }
+}

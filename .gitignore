@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.auth.json
+.auth.json.*
+data/
+output/
+research/*
+!research/site-contract.md
+*.log
+*.sqlite
+*.sqlite-*
+.DS_Store
